@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Settings>
+  <db_conn_string>SERVER=RU-LOB-SQL01;DATABASE=FiluetWH;User Id=exuser;Password=good4you;</db_conn_string>
+  <RefreshDelay>5000</RefreshDelay>
+</Settings>
