@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>dpd_2_0X5_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v14.2" />
     <Reference Include="DevExpress.Data.v14.2" />
@@ -89,6 +92,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SerializeStatic.cs" />
     <Compile Include="Settings.cs" />
+    <Content Include="dpd_2_0X5_icon.ico" />
+    <Content Include="dpd_Vgr_icon.ico" />
     <Content Include="Settings_DPD.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

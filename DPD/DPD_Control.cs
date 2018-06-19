@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Data;
-using System.Linq;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using System.Diagnostics;
 using DevExpress.XtraGrid.Views.Grid;
 using System.IO;
 using NLog;
@@ -236,7 +233,7 @@ namespace DPD
                             e.Appearance.BackColor = Color.FromArgb(200, 200, 200);
                             break;
                         default:
-                            if (dpd_status != "OK" & dpd_status.Length > 0)
+                            if ((!dpd_status.Contains("OK")) & dpd_status.Length > 0)
                                 e.Appearance.BackColor = Color.FromArgb(255, 150, 150);
                             //else if (status.Contains("WAR"))
                             //    e.Appearance.BackColor = Color.FromArgb(255, 255, 150);

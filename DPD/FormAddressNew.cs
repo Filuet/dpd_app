@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
-using System.Windows.Forms;
 using System.Data.SqlClient;
 using DevExpress.XtraEditors;
 using NLog;
 using System.Reflection;
-using System.Diagnostics;
 
 namespace DPD
 {

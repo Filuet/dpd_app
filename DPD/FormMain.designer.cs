@@ -50,9 +50,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1054, 586);
             this.Controls.Add(this.cse1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
-            this.Text = "Курьер Сервис Экспресс";
+            this.Text = "DPD";
             this.ResumeLayout(false);
 
         }
